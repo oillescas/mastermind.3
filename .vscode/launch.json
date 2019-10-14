@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MastermindStandalone<ejercicio3>",
+            "request": "launch",
+            "mainClass": "dev.illescas.mastermind.MastermindStandalone",
+            "projectName": "ejercicio3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MastermindClient<ejercicio3>",
+            "request": "launch",
+            "mainClass": "dev.illescas.mastermind.MastermindClient",
+            "projectName": "ejercicio3"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MastermindServer<ejercicio3>",
+            "request": "launch",
+            "mainClass": "dev.illescas.mastermind.MastermindServer",
+            "projectName": "ejercicio3"
+        }
+    ]
+}
